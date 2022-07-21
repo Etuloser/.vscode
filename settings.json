@@ -1,0 +1,30 @@
+{
+    "python.linting.flake8Enabled": false,
+    "python.linting.enabled": false,
+    "python.linting.pylintEnabled": true,
+    "code-runner.executorMap": {
+        "python": "/srv/venv/bin/python3"
+    },
+    "editor.tabSize": 4,
+    "python.testing.unittestArgs": [
+        "-v",
+        "-s",
+        "./tests",
+        "-p",
+        "*_test.py"
+    ],
+    "python.testing.pytestEnabled": false,
+    "python.testing.unittestEnabled": true,
+    "python.formatting.provider": "autopep8",
+    "python.analysis.autoImportCompletions": false,
+    "files.exclude": {
+        "**/.git": true,
+        "**/.svn": true,
+        "**/.hg": true,
+        "**/CVS": true,
+        "**/.DS_Store": true,
+        "**/Thumbs.db": true,
+        "**/__pycache__": true,
+        "**/__init__.py": true
+    }
+}
