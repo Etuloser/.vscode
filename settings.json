@@ -3,9 +3,10 @@
     "python.linting.enabled": false,
     "python.linting.pylintEnabled": true,
     "code-runner.executorMap": {
-        "python": "/srv/venv/bin/python3"
+        "python": "/usr/bin/python3"
     },
-    "editor.tabSize": 4,
+    "editor.tabSize": 2,
+    "python.defaultInterpreterPath": "/usr/bin/python3",
     "python.testing.unittestArgs": [
         "-v",
         "-s",
