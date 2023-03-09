@@ -1,13 +1,9 @@
 {
-    "python.linting.flake8Enabled": false,
-    "python.linting.enabled": false,
-    "python.linting.pylintEnabled": true,
+    "editor.fontLigatures": true, // 是否启用字体连字
+    "editor.fontSize": 14, //设置字体大小
+    "editor.fontWeight": "normal", //设置字体粗细
+    "editor.fontFamily": "Jetbrains Mono",
     "editor.tabSize": 2,
-    "python.defaultInterpreterPath": "/usr/bin/python3",
-    "python.testing.pytestEnabled": true,
-    "python.testing.unittestEnabled": false,
-    "python.formatting.provider": "autopep8",
-    "python.analysis.autoImportCompletions": false,
     "files.exclude": {
         "**/.git": true,
         "**/.svn": true,
