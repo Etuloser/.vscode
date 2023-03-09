@@ -17,6 +17,5 @@
         "**/Thumbs.db": true,
         "**/__pycache__": true,
         "**/__init__.py": true
-    },
-    "gopls": {"build.experimentalWorkspaceModule": true}
+    }
 }
