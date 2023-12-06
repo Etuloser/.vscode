@@ -14,5 +14,8 @@
         "**/Thumbs.db": true,
         "**/__pycache__": true,
         "**/__init__.py": true
-    }
+    },
+    "go.testFlags": [
+        "-gcflags=all=-l"
+    ]
 }
