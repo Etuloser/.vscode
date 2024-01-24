@@ -5,6 +5,9 @@
     "editor.fontWeight": "normal",
     "editor.fontFamily": "Consolas,'微软雅黑','Courier New', monospace",
     "terminal.integrated.fontFamily": "Consolas,'微软雅黑','Courier New', monospace",
+    "terminal.integrated.env.windows": {
+        "PYTHONPATH": "${workspaceFolder};${env:PYTHONPATH}"
+    },
     "files.exclude": {
         "**/.git": true,
         "**/.svn": true,
