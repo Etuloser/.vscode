@@ -20,5 +20,5 @@
     },
     "go.testFlags": [
         "-gcflags=all=-l"
-    ]
+    ],
 }
