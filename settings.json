@@ -6,7 +6,10 @@
     "editor.fontFamily": "Consolas,'微软雅黑','Courier New', monospace",
     "terminal.integrated.fontFamily": "Consolas,'微软雅黑','Courier New', monospace",
     "terminal.integrated.env.windows": {
-        "PYTHONPATH": "${workspaceFolder};${env:PYTHONPATH}"
+        "PYTHONPATH": "${workspaceFolder};${env:PYTHONPATH}",
+    },
+    "terminal.integrated.env.linux": {
+        "PYTHONPATH": "${workspaceFolder};${env:PYTHONPATH}",
     },
     "files.exclude": {
         "**/.git": true,
@@ -18,7 +21,4 @@
         "**/__pycache__": true,
         "**/__init__.py": true
     },
-    "go.testFlags": [
-        "-gcflags=all=-l"
-    ]
 }
