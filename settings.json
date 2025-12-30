@@ -15,24 +15,28 @@
         "**/__pycache__": true,
         "**/__init__.py": true
     },
-    
     // python
-    // 需要安装 Black Formatter 和 isort 扩展
+    // 环境变量配置
     "terminal.integrated.env.windows": {
         "PYTHONPATH": "${workspaceFolder};${env:PYTHONPATH}",
     },
     "terminal.integrated.env.linux": {
         "PYTHONPATH": "${workspaceFolder};${env:PYTHONPATH}",
     },
+    // 需要安装 ruff 扩展
     "[python]": {
-        "editor.defaultFormatter": "ms-python.black-formatter",
         "editor.formatOnSave": true,
         "editor.codeActionsOnSave": {
+            "source.fixAll": "explicit",
             "source.organizeImports": "explicit"
         },
+        "editor.defaultFormatter": "charliermarsh.ruff"
     },
-    "isort.args": [
-        "--profile",
-        "black"
+    "python.testing.pytestArgs": [
+        "tests",
+        "-s",
+        "--reuse-db",
     ],
+    "python.testing.unittestEnabled": false,
+    "python.testing.pytestEnabled": true,
 }
