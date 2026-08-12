@@ -35,7 +35,6 @@
     "python.testing.pytestArgs": [
         "tests",
         "-s",
-        "--reuse-db",
     ],
     "python.testing.unittestEnabled": false,
     "python.testing.pytestEnabled": true,
